@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Way Farer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/booking.css'>
+    <script src='JS/booking.js'></script>
+</head>
+<body>
+    <h2>
+        <center>Book Now!</center>
+      
+    </h2>
+    <!-- start of the form -->
+    <div class="form">
+      <!-- beginning of trip bokking -->
+        <h1>Book your trips</h1>
+        <label>First name</label>
+        <input type="text" placeholder="Enter your firstname name" name="firstname" id="name">
+        <br>
+        <br>
+        <label>Second name</label>
+        <input type="text" placeholder="Enter your Second name" name="firstname" id="name">
+        <br>
+        <br>
+        <label>Your Email</label>
+        <input type="text" placeholder="example@gmail.com" name="firstname" id="name">
+        <br>
+        <br>
+        <label>Book a Seat</label>
+        
+        <select>
+            <option value="seat">1</option>
+            <option value="seat">2</option>
+            <option value="seat">3</option>
+            <option value="seat">4</option>
+            <option value="seat">5</option>
+            <option value="seat">6</option>
+            <option value="seat">7</option>
+            <option value="seat">8</option>
+            <option value="seat">9</option>
+            <option value="seat">10</option>
+            <option value="seat">11</option>
+            <option value="seat">12</option>
+            <option value="seat">13</option>
+            <option value="seat">14</option>
+            <option value="seat">15</option>
+            <option value="seat">16</option>
+            <option value="seat">17</option>
+            <option value="seat">18</option>
+            <option value="seat">19</option>
+            <option value="seat">20</option>
+            <option value="seat">21</option>
+            <option value="seat">22</option>
+            <option value="seat">23</option>
+            <option value="seat">24</option>
+            <option value="seat">25</option>
+        </select>
+          <br>
+          <br>
+          <label>Time</label>
+        
+          <select>
+              <option value="time">6:00am</option>
+              <option value="Time">5:00am</option>
+              <option value="Time">7:00am</option>
+              <option value="Time">8:00am</option>
+              <option value="Time">9:00am</option>
+              <option value="Time">10:00am</option>
+              <option value="seat">11:00am</option>
+              <option value="Time">12:00pm</option>
+              <option value="Time">1:00pm</option>
+              <option value="Time">2:00pm</option>
+              <option value="Time">3:00pm</option>
+              <option value="Time">4:00pm</option>
+              <option value="Time">5:00pm</option>
+              <option value="Time">6:00pm</option>
+              <option value="Time">7:00pm</option>
+              <option value="Time">8:00pm</option>
+              <option value="Time">9:00pm</option>
+          </select>
+            <br>
+            <br>
+        <label>Price</label>
+          <input type="text" placeholder="ticket's price" >
+          <br>
+          <br>
+        <label>Origin</label>
+        <input type="text" placeholder="city of origin" >
+        <br>
+        <br>
+        <label>Destination</label>
+        <input type="text" placeholder="City of destination" >
+        <br>
+        <br>
+        <label>Any Feedback</label>
+        <textarea  rows="4" cols="50"name="comment" >Enter your Feedback here...</textarea>
+        <br>
+        <br>
+        <button onclick=post()><strong>Book Now</strong></button>
+        <button hrf="wiew-trips-user.html"><strong>View Your Trips</strong></button>
+
+    </div>
+    <!-- end of the form -->
+</body>
+</html>
