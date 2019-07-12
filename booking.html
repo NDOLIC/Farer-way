@@ -11,53 +11,56 @@
 <body>
     <h2>
         <center>Book Now!</center>
-      
-    </h2>
-    <!-- start of the form -->
-    <div class="form">
-      <!-- beginning of trip bokking -->
-        <h1>Book your trips</h1>
-        <!DOCTYPE html>
 <div id="first">
-<form action="" method="post">
-<h1>Book your Trip</h1>
+  <form action="" method="post">
+  <center>
+  <h1>Book your Trip</h1>
+  </center>
+  <label class="one">
+  <span>Name :</span>&nbsp;
+  <input class="name" name="dname" type="text">
+  </label>
+  <label class="ne">
+  <span>Origin :</span>&nbsp;
+  <input class="name" name="dorigin" type="text">
+  </label>
+  <label class="on">
+  <span>Destination :</span>&nbsp;
+  <input class="name" name="ddestination" type="text">
+  </label>
+  <label class="two">
+  <span>Email :</span>&nbsp;
+  <input class="email" name="demail" type="email">
+  </label>
+  <label class="three">
+  <span>Message :</span>&nbsp;
+  <textarea class="msg" name="msg">
+  </textarea>
+  </label>
+  <label class="four">
+  <span>Select a seat</span>&nbsp;
+  <select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
 
-<label class="one">
-<span>Name :</span>&nbsp;
-<input class="name" name="dname" type="text">
-</label>
-<label class="one">
-<span>Origin :</span>&nbsp;
-<input class="name" name="dname" type="text">
-</label>
-<label class="one">
-<span>Destination :</span>&nbsp;
-<input class="name" name="dname" type="text">
-</label>
-<label class="two">
-<span>Email :</span>&nbsp;
-<input class="email" name="demail" type="email">
-</label>
-<label class="three">
-<span>Message :</span>&nbsp;
-<textarea class="msg" name="msg">
-</textarea>
-</label>
-<label class="four">
-<span>Choose :</span>&nbsp;
-<select>
-<option value="book time of your trip">Time</option>
-<option value="book your seat">Seat</option>
-<option value="Feedback">Feedback</option>
+  </select>
+  </label>
 
-</select>
-</label>
+  <label class="four">
+      <span>Select time</span>&nbsp;
+      <select>
+      <option value="1">6:00</option>
+      <option value="2">7:00</option>
+      <option value="3">8:00</option>
+    
+      </select>
+      </label>
+    
+  <input class="submit" onclick="location.href='view-trips-user.html'"><strong>Book Now</strong></input>
+  <input class="submit" onclick="location.href='view-trips-user.html'"><strong>View Your Trips</strong></input>
 
-
-<button class="submit" onclick="location.href='view-trips-user.html'"><strong>Book Now</strong></button>
-<button class="submit" onclick="location.href='view-trips-user.html'"><strong>View Your Trips</strong></button>
-
-</form>
+  </form>
 </div>
 <!-- end of the form -->
 </body>

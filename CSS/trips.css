@@ -48,17 +48,14 @@ input:hover{
   }
 }
 /* filter css */
-.filt {
-  height: 50%;
-  width: 160px;
-  position: absolute;
-  background-color: #111;
-  overflow-x: hidden;
-  margin-bottom:40%;
-}
+.four{
+  display:block;
+  margin-left:9px;
+  margin-top:10px
+  }
 @media screen and (max-height: 450px) {
-  .filt {padding-top: 15px;}
-  .filt a {font-size: 18px;}
+  .four {padding-top: 15px;}
+  .four a {font-size: 18px;}
 }
 /* end of side filter css*/
 .mySlides {display:none;}
