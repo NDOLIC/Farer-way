@@ -1,9 +1,12 @@
 
 @import "http://fonts.googleapis.com/css?family=Ubuntu";
 body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTas2gwVEzrsUCtX6Vi8c2zuFg8cbWovAb0baQU5c-Q0mjwgIbIiQ);
 margin:0;
 padding:0;
-font-family:'Ubuntu',sans-serif
+font-family:'Ubuntu',sans-serif;
+background-size: cover;
+background-repeat: no-repeat;
 }
 #first{
 width:400px;

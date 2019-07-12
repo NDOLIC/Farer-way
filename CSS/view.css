@@ -1,0 +1,36 @@
+div.det {
+    padding: 2px;
+    text-align: left;
+  }
+  input:hover{
+    background: skyblue;color: #333;
+  }
+  * {
+    box-sizing: border-box;
+    background-image: url(https://images.pexels.com/photos/518245/pexels-photo-518245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    height: 25%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
