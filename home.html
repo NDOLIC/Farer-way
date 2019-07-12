@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Way Farer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+<style>
+.mySlides {display:none;}
+#header{width: 100%;height: 80px;background: #333;box-shadow: 0px 2px 4px gray;}
+#logo{width:200px;height: 80px;float: left;}
+#navbar{width:1000px;height: 80px;margin: 0px auto;float: right;}
+#navbar>li{float: left;list-style: none;width: 150px;height: 80px;border-right:1px solid #534444;border-left: 1px solid #534444;}
+li>a{text-decoration: none;color: white;font-family: cursive;font-size: 20px;line-height: 80px;display: block;text-align: center;}
+li>a:hover,
+li>a:focus{background: skyblue;color: #333;}
+#res_btn{width: 50px;height: 50px;float: right;display: none;}
+@media screen and (max-width:1260px){
+ 
+  #navbar{width:800px;height: 80px;margin: 0px auto;float: right;}
+  #navbar>li{float: left;list-style: none;width: 150px;height: 80px;border-right:1px solid #534444;border-left: 1px solid #534444;}
+  li>a{text-decoration: none;color: white;font-family: cursive;font-size: 20px;line-height: 80px;display: block;text-align: center;}
+}
+@media screen and (max-width:1060px){
+  #header{width: 100%;height: 80px;background: #333;box-shadow: 0px 2px 4px gray;position:relative;top:80px;}
+  #logo{width:100%;height: 90px;float: left;padding-left:20px;padding-top: 10px;position: absolute;top:-90px;background: white;}
+  #navbar{width:100%;height: 60px;margin: 0px auto;}
+  #navbar>li{width: 18%;}
+  li>a{font-size: 16px;}
+}
+@media screen and (max-width:768px){
+  #header{height: 50px;}
+  #navbar{width:100%;height: 50px;margin: 0px auto;}
+  #navbar>li{width: 19%;height: 50px;}
+  li>a{font-size: 16px;line-height: 50px;}
+}
+@media screen and (max-width: 480px){
+  #header{height: 0px;}
+  #navbar body {width:100%;height: 50px;margin: 0px auto;margin-top:-40px;
+    display: none;}
+  #navbar>li{float: none;list-style: none;width: 100%;height: 50px;background: #333;border-bottom: 1px solid skyblue;}
+  li>a{font-size: 16px;line-height: 50px;}
+  #res_btn{display: block;position: relative;top:-80px;cursor: pointer;}
+}
+h1{
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 200px;
+}
+</style>
+</head>
+
+<body>
+<div id="header">
+    <div id="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4ebtUGYJdUwYaGFEAzQ1_V2P2wnbkd7ZQz9eT8xH_A5MDJDNjg" height="80px" width="300px"></div>
+    <ul id="navbar">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#">Contacts</a></li>
+      <li><a href="trips.html">All Trips</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="registration.html">Register</a></li>
+    </ul>
+  </div>
+<center><h2>Way Farer</h2></center>
+
+<div  style="max-width:500px">
+  <img class="mySlides" src="https://images.pexels.com/photos/2506220/pexels-photo-2506220.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500" style="width: 1500px; height: 630px">
+  <img class="mySlides" src="https://images.pexels.com/photos/416703/pexels-photo-416703.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500" style="width: 1500px; height: 630px">
+  <img class="mySlides" src="https://images.pexels.com/photos/1738991/pexels-photo-1738991.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500" style="width: 1500px; height: 630px">
+  <img class="mySlides" src="http://azodi.co/images/new-bus-for-london-pinterest-bus-coach-transportation__aHR0cHM6Ly9pLnBpbmltZy5jb20vb3JpZ2luYWxzLzJjLzdjL2FkLzJjN2NhZDFkMGUyODA2OTIyNTM3MDM0YjgzZWY0OGFkLmpwZw==.jpg" style="width: 1500px; height: 630px">
+</div>
+<footer>
+  <p id="contactus">ContactUs:wayfarer@wayfare.com
+  </p>
+  <center>
+    <p>copyright 2019&COPY;All right Reserved</p> 
+  </center>
+</footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

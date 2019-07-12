@@ -10,20 +10,29 @@
 </head>
 <body>
       <!-- navigation bar -->
-  <header>
-    <div class="nav">
-      <ul>
-        <li class="home"><a href="#">Home</a></li>
-        <li class="about"><a href="#">About</a></li>
-        <li class="contact"><a href="#contact">Contact</a></li>
-        <li><a href="#trips">All Trips</a></li>
-        <li style="float:right"><a class="active" href="login.html">Login</a></li>
-        <li style="float:right"><a class="active" href="registration.html">Register</a></li>
-      </ul>
-    </div>
-  </header>
-<h1 id="tit">all Trips</h1>
+      <div id="header">
+        <ul id="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="trips.html">All Trips</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="registration.html">Register</a></li>
+        </ul>
+      </div>
+      <div class="sidenav">
+        <h3 class="filt" >Filter by</h3>
+        <label class="container">Origin
+          <input type="checkbox"checked="checked">
+          <span class="checkmark"></span>
+        </label>
 
+        <label class="filt">Destination
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+<h1 id="tit">All Trips</h1>
 <div class="responsive">
   <div class="detail">
       <img src="https://images.pexels.com/photos/594384/van-vw-travel-trip-594384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="car" width="600" height="400">
@@ -81,11 +90,6 @@
       <input type="button" onclick="location.href='booking.html'" value="Book Now">
     </div>
   </div>
-</div>
-<div class="footer">
-    <p>copyright 2019&COPY;All right Reserved</p> 
-</div>  
-      
-    </div>  
+</div> 
 </body>
-</html>>
+</html>

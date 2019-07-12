@@ -14,23 +14,51 @@
       
     </h2>
     <!-- start of the form -->
-    <div class="form-style-2">
-      <div class="form-style-2-heading">Provide your information</div>
-      <form action="" method="post">
-      <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-      <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
-      <label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
-      <label for="field4"><span>Regarding</span><select name="field4" class="select-field">
-      <option value="General Question">General</option>
-      <option value="Advertise">Advertisement</option>
-      <option value="Partnership">Partnership</option>
-      </select></label>
-      <label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
-      
-      <label><span> </span><input href="wiew-trips-user.html" type="submit" value="Book Now" /></label>
-      <label><span> </span><input href="wiew-trips-user.html" type="submit" value="View Your Trips" /></label>
-      </form>
-      </div>
-    <!-- end of the form -->
+    <div class="form">
+      <!-- beginning of trip bokking -->
+        <h1>Book your trips</h1>
+        <!DOCTYPE html>
+<div id="first">
+<form action="" method="post">
+<h1>Book your Trip</h1>
+
+<label class="one">
+<span>Name :</span>&nbsp;
+<input class="name" name="dname" type="text">
+</label>
+<label class="one">
+<span>Origin :</span>&nbsp;
+<input class="name" name="dname" type="text">
+</label>
+<label class="one">
+<span>Destination :</span>&nbsp;
+<input class="name" name="dname" type="text">
+</label>
+<label class="two">
+<span>Email :</span>&nbsp;
+<input class="email" name="demail" type="email">
+</label>
+<label class="three">
+<span>Message :</span>&nbsp;
+<textarea class="msg" name="msg">
+</textarea>
+</label>
+<label class="four">
+<span>Choose :</span>&nbsp;
+<select>
+<option value="book time of your trip">Time</option>
+<option value="book your seat">Seat</option>
+<option value="Feedback">Feedback</option>
+
+</select>
+</label>
+
+
+<button class="submit" onclick="location.href='view-trips-user.html'"><strong>Book Now</strong></button>
+<button class="submit" onclick="location.href='view-trips-user.html'"><strong>View Your Trips</strong></button>
+
+</form>
+</div>
+<!-- end of the form -->
 </body>
 </html>
