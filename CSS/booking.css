@@ -6,17 +6,16 @@ margin:0;
 padding:0;
 font-family:'Ubuntu',sans-serif;
 background-size: cover;
-background-repeat: no-repeat;
 }
 #first{
 width:400px;
-height:800px;
+height:600px;
 box-shadow:0 0 15px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15);
 float:left;
 padding:10px 50px 0;
 background-image:url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 margin:2% 30%;
-border-radius:5px
+border-radius:5px;
 }
 hr{
 border-top:1px solid #ccc;
@@ -29,7 +28,7 @@ font-size:17px
 }
 .one{
 display:block;
-margin-left:22px;
+margin-left:20px;
 margin-top:5px
 }
 .ne{
@@ -39,8 +38,9 @@ margin-top:5px
     }
 .on{
     display:block;
-    margin-left:20px;
+    margin-right:20px;
     margin-top:5px
+    padding-right:
 }
 .two{
 display:block;
@@ -59,7 +59,7 @@ margin-top:5px
 }
 input,select{
 width:300px;
-padding:10px;
+padding-right:10px;
 border-radius:5px;
 border:1px solid #cbcbcb;
 box-shadow:inset 0 1px 2px rgba(0,0,0,0.18);
