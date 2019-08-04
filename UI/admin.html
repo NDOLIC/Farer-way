@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trips</title>
+    <link rel="stylesheet" href="CSS/admin.css">
+  </head>
+
+<body>
+  <nav class="navbar navdash">
+        <div class="container">
+            <a class="site-title" href="postrip.html">Add A Trip</a>
+    
+            <ul class="menu-lg">
+                <li>
+                    <a class="active" href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="trips.html">All Trips</a>
+                </li>
+                <li>
+                    <a href="index.html">Logout</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+
+  
+  <div class="dashboard">
+    <div class="container">
+      <div class="row">
+        <div class="dashboard-content">
+          <h1 class="underline putcenter">My Trips</h1>
+          <br>
+          <br>
+          <div>
+            <center>
+                <h2 style="margin-top: 60px;">Posted Trips</h2>
+            </center>
+         
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Image</th>
+                  <th>Available Seat</th>
+                  <th>Origin</th>
+                  <th>Destination</th>                  
+                  <th>Price</th>
+                  <th>Created on</th>
+                  <th>Company name</th>
+                  <th>Company Phone</th>
+                  <th>Operator</th>
+                <th/>
+                </tr>
+              </thead>
+              <tbody>
+                
+                <tr class="clickablelink">
+                  <td onclick="location.href='propertytrips.html'">1</td>
+                  <td onclick="location.href='trips.html'"><img src="./img/properties/1.jpg"class="thumbnail"></td>
+                  <td>
+                      <label class="switch">
+                          <input type="checkbox">
+                          23
+            
+                          <span class="slider2 round"></span>
+                      </label>
+                  </td>
+                  <!-- <td onclick="location.href='trips.html'">2</td> -->
+                  <td onclick="location.href='trips.html'">Kigali</td>
+                  <td onclick="location.href='trips.html'">Nyamaheke</td>                  
+                  <td onclick="location.href='trips.html'">10 000RWF</td>                  
+                  <td onclick="location.href='trips.html'">20/07/2019</td>
+                  <td onclick="location.href='trips.html'">Volcano</td>
+                  <td onclick="location.href='trips.html'">0785599222</td>
+                  <td onclick="location.href='trips.html'">Kanyana</td>
+                  <td>
+                        <div class="dashboard-buttons">
+                                <button class="button-edit"onclick="location.href='trips.html'">
+                                                Post
+                                </button>
+                                <button class="button-delete"onclick="location.href='delete-trips.html'">
+                                    Delete
+                                </button>
+                        </div>
+                  </td>                  
+                </tr>
+                
+                <tr class="clickablelink">
+                  <td onclick="location.href='property.html'">2</td>
+                  <td onclick="location.href='property.html'"><img src="./img/properties/2.jpg"class="thumbnail"></td>
+                  <td>
+                      <label class="switch">
+                          <input type="checkbox">
+                          12
+                          <span class="slider2 round"></span>
+                      </label>
+                  </td>
+                  <!-- <td onclick="location.href='trips.html'">7</td> -->
+                  <td onclick="location.href='trips.html'">Rwamagana</td>
+                  <td onclick="location.href='trips.html'">Kigali</td>                  
+                  <td onclick="location.href='trips.html'">2500 RWF</td>                  
+                  <td onclick="location.href='trips.html'">03/07/2019</td>
+                  <td onclick="location.href='trips.html'">Capital</td>
+                  <td onclick="location.href='trips.html'">0787744991</td>
+                  <td onclick="location.href='trips.html'">Musa</td>
+                  <td>
+                        <div class="dashboard-buttons">
+                                <button class="button-edit"onclick="location.href='edit-trips.html'">
+                                        Post
+                                </button>
+                                <button class="button-delete"onclick="location.href='delete-trips.html'">
+                                    Delete
+                                </button>
+                        </div>
+                  </td>                  
+                </tr>
+                <tr class="clickablelink">
+                  <td onclick="location.href='property.html'">3</td>
+                  <td onclick="location.href='property.html'"><img src="./img/properties/3.jpg"class="thumbnail"></td>
+                  <td>
+                      <label class="switch">
+                          <input type="checkbox">
+                          12
+                          <span class="slider2 round"></span>
+                      </label>
+                  </td>
+                  <!-- <td onclick="location.href='trips.html'">5,8,10</td> -->
+                  <td onclick="location.href='trips.html'">Rubavu</td>
+                  <td onclick="location.href='trips.html'">Musanze</td>                  
+                  <td onclick="location.href='trips.html'">1200RWF</td>                  
+                  <td onclick="location.href='trips.html'">06/07/2019</td>
+                  <td onclick="location.href='trips.html'">Ritco</td>
+                  <td onclick="location.href='trips.html'">0785099022</td>
+                  <td onclick="location.href='trips.html'">Musafiri</td>
+                  <td>
+                        <div class="dashboard-buttons">
+                                <button class="button-edit"onclick="location.href='edit-trips.html'">
+                                        Post
+                                </button>
+                                <button class="button-delete"onclick="location.href='delete-trips.html'">
+                                    Delete
+                                </button>
+                        </div>
+                  </td>                  
+                </tr>
+               
+                                </div>
+                        </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+     
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+    <footer class="footer ftdash">
+      <br>
+    <br>
+        <center>
+            <h3>Ukererewe Ntasubizwa</h3>
+        </center>
+        Copyright &copy; 2019 Way-Farer
+    </footer>
+
+</body>
+
+</html>
