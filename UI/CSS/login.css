@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://images.pexels.com/photos/2221893/pexels-photo-2221893.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-image: url(http://www.bdsc.school.nz/wp-content/uploads/2017/03/background-blur-1.jpg);
     background-size: cover;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@ body {
   padding:30px;
   margin:40px auto;
   background: #FFF;
+  opacity: 0.8;
   border-radius: 10px;
   -webkit-border-radius:10px;
   -moz-border-radius: 10px;
@@ -24,13 +25,13 @@ body {
   margin-bottom: 15px;
 }
 .form h1{
-  background: grey;
+  background: #FFF;
   padding: 20px 30px 15px 30px;
   margin: -30px -30px 30px -30px;
   border-radius: 10px 10px 0 0;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
-  color: #fff;
+  color: blue;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
   font: normal 30px 'Bitter', serif;
   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
@@ -95,13 +96,13 @@ body {
 }
 .form input[type="button"], 
 .form input[type="submit"]{
-  width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid #f26724; 
-    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #f26724; letter-spacing: 1px; 
+  width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid blue; 
+    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: blue; letter-spacing: 1px; 
     font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
 }
 .form input[type="button"]:hover, 
 .form input[type="submit"]:hover{
-  background-color:#f26724; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+  background-color:blue; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
     -webkit-transition: 1s; -moz-transition: 1s; transition: 1s; 
 }
 

@@ -5,10 +5,11 @@ WayFarer is a public bus transportation booking service.
 you must have a terminal and Vs to run this program
 
 ##  Technologies used
-HTML, CSS, JS
+HTML, CSS, Java Script
 
 ##  Authors
 Marie Claire TUYISENGE
 
 ##  Contact information
 NDOLIC on Github
+### copy @2018

@@ -8,15 +8,14 @@
     <link rel='stylesheet' type='text/css' media='screen' href='CSS/postrip.css'>
     <script src='JS/postrip.js'></script>
 </head>
-<body>
+<body >
     <h2>
-        <center>Delete or Post a trip</center>
+        <center>Post a trip</center>
       
     </h2>
     <!-- start of the form -->
     <div class="form">
       <!-- beginning of trip post -->
-        <h1>form to post or delete trip</h1>
         <label>company name</label>
         <input type="text" placeholder="Enter comanny name" name="firstname" id="name">
         <br>
@@ -87,7 +86,7 @@
         <input type="text" placeholder="City of destination" >
         <br>
         <br>
-        <label>Address</label>
+        <label>Company Phone</label>
         <input type="text" placeholder="Address" >
         <br>
         <br>
@@ -96,13 +95,13 @@
         <br>
         <br>
         <label>Description</label>
-        <textarea  rows="4" cols="50"name="comment" >Enter Small Description here...</textarea>
+        <textarea  rows="4" cols="50"name="comment" >Ukererewe ntasubizwa!!!...</textarea>
         <br>
         <br>
-        <button onclick=post() href="trips.html"> <strong>Post A Trip</strong></button>
-        <button > <strong>Delete a Trip</strong></button>
-
+        <button class="button-edit"onclick="location.href='admin.html'"><strong>
+            Post A Trip
+    </strong></button>
     </div>
     <!-- end of the form -->
 </body>
-</html>>
+</html>
