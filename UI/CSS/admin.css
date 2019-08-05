@@ -1,0 +1,113 @@
+.button-delete{
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #f65959;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-right: 10px;
+}
+.button-delete:hover{
+    color: #fff;
+    background-color: #f65959;
+    border-color: #f65959;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.button-edit{
+    color: #fff;
+    background-color: #1976d2;
+    border-color: #63a4ff;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-right: 10px;
+}
+.button-edit:hover{
+    color: #fff;
+    background-color: #63a4ff;
+    border-color: #63a4ff;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.dashboard-buttons{
+    display: flex;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-image:url(http://www.bdsc.school.nz/wp-content/uploads/2017/03/background-blur-1.jpg);
+}
+.navbar{
+    background-color: #fff!important;
+    margin-top: 50px;
+    position: fixed;
+    width:100%;
+    margin-bottom: 40px;
+    box-shadow: 0 7px 12px 0 rgba(62,57,107,.16);
+    
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;    
+}
+table, th, td {
+    border: 1px solid black;
+    margin-left:20%;
+    margin-top:2%;
+  }
+.row {
+    width: 90%;
+}
+footer {
+    color: #fff!important;
+    text-align: center!important;
+    padding: 1.5rem!important;
+    /* margin-top: 3rem!important; */
+    background-color: #343a40!important;
+    height: 10px;
+    margin-top: 100px;
+}
+.button-1:hover {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #ffd349;
+    border-color: #ffd349;
+    display: inline-block;
+    font-weight: 400;
+    text-decoration: none;
+}
+@media only screen and (min-width: 600px){
+.menusm {
+    display:block!important;
+}
+.menulg {
+    display:none!important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
