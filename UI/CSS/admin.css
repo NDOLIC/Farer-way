@@ -1,133 +1,237 @@
-.button-delete{
-    color: #fff;
-    background-color: #bd2130;
-    border-color: #f65959;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    margin-right: 10px;
+table,
+th,
+tr,
+td {
+  border-collapse: collapse;
+  padding: 5px;
 }
-.button-delete:hover{
-    color: #fff;
-    background-color: #f65959;
-    border-color: #f65959;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
+.button-delete {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #f65959;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  margin-right: 10px;
 }
-.button-edit{
-    color: #fff;
-    background-color: #1976d2;
-    border-color: #63a4ff;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    margin-right: 10px;
+.button-delete:hover {
+  color: #fff;
+  background-color: #f65959;
+  border-color: #f65959;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
 }
-.button-edit:hover{
-    color: #fff;
-    background-color: #63a4ff;
-    border-color: #63a4ff;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-}
-.all-buttons{
-    display: flex;
+.all-buttons {
+  display: flex;
 }
 body {
-    margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #fff;
-    text-align: left;
-    background-image:url(http://www.bdsc.school.nz/wp-content/uploads/2017/03/background-blur-1.jpg);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color:black;
+  text-align: left;
+  background-color: aliceblue;
 }
-#header{width: 100%;height: 80px;background: #333;box-shadow: 0px 2px 4px gray;}
-#logo{width:200px;height: 80px;float: left;}
-#navbar{width:1000px;height: 80px;margin: 0px auto;float: right;}
-#navbar>li{float: left;list-style: none;width: 150px;height: 80px;border-right:1px solid #534444;border-left: 1px solid #534444;}
-li>a{text-decoration: none;color: white;font-family: cursive;font-size: 20px;line-height: 80px;display: block;text-align: center;}
-li>a:hover,
-li>a:focus{background: skyblue;color: #333;}
-#res_btn{width: 50px;height: 50px;float: right;display: none;}
-@media screen and (max-width:1260px){
- 
-  #navbar{width:800px;height: 80px;margin: 0px auto;float: right;}
-  #navbar>li{float: left;list-style: none;width: 150px;height: 80px;border-right:1px solid #534444;border-left: 1px solid #534444;}
-  li>a{text-decoration: none;color: white;font-family: cursive;font-size: 20px;line-height: 80px;display: block;text-align: center;}
+#header {
+  width: 100%;
+  height: 80px;
+  background: #333;
+  box-shadow: 0px 2px 4px gray;
 }
-@media screen and (max-width:1060px){
-  #header{width: 100%;height: 80px;background: #333;box-shadow: 0px 2px 4px gray;position:relative;top:80px;}
-  #logo{width:100%;height: 90px;float: left;padding-left:20px;padding-top: 10px;position: absolute;top:-90px;background: white;}
-  #navbar{width:100%;height: 60px;margin: 0px auto;}
-  #navbar>li{width: 18%;}
-  li>a{font-size: 16px;}
+#logo {
+  width: 200px;
+  height: 80px;
+  float: left;
 }
-@media screen and (max-width:768px){
-  #header{height: 50px;}
-  #navbar{width:100%;height: 50px;margin: 0px auto;}
-  #navbar>li{width: 19%;height: 50px;}
-  li>a{font-size: 16px;line-height: 50px;}
+#navbar {
+  width: 1000px;
+  height: 80px;
+  margin: 0px auto;
+  float: right;
 }
-@media screen and (max-width: 480px){
-  #header{height: 0px;}
-  #navbar body {width:100%;height: 50px;margin: 0px auto;margin-top:-40px;
-    display: none;}
-  #navbar>li{float: none;list-style: none;width: 100%;height: 50px;background: #333;border-bottom: 1px solid skyblue;}
-  li>a{font-size: 16px;line-height: 50px;}
-  #res_btn{display: block;position: relative;top:-80px;cursor: pointer;}
+#navbar > li {
+  float: left;
+  list-style: none;
+  width: 150px;
+  height: 80px;
+  border-right: 1px solid #534444;
+  border-left: 1px solid #534444;
 }
-table, th, td {
-    border: 1px solid black;
-    margin-left:20%;
-    margin-top:2%;
+li > a {
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 80px;
+  display: block;
+  text-align: center;
+}
+li > a:hover,
+li > a:focus {
+  background: skyblue;
+  color: #333;
+}
+#res_btn {
+  width: 50px;
+  height: 50px;
+  float: right;
+  display: none;
+}
+@media screen and (max-width: 1260px) {
+  #navbar {
+    width: 800px;
+    height: 80px;
+    margin: 0px auto;
+    float: right;
   }
+  #navbar > li {
+    float: left;
+    list-style: none;
+    width: 150px;
+    height: 80px;
+    border-right: 1px solid #534444;
+    border-left: 1px solid #534444;
+  }
+  li > a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 80px;
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1060px) {
+  #header {
+    width: 100%;
+    height: 80px;
+    background: #333;
+    box-shadow: 0px 2px 4px gray;
+    position: relative;
+    top: 80px;
+  }
+  #logo {
+    width: 100%;
+    height: 90px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: absolute;
+    top: -90px;
+    background: white;
+  }
+  #navbar {
+    width: 100%;
+    height: 60px;
+    margin: 0px auto;
+  }
+  #navbar > li {
+    width: 18%;
+  }
+  li > a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #header {
+    height: 50px;
+  }
+  #navbar {
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+  }
+  #navbar > li {
+    width: 19%;
+    height: 50px;
+  }
+  li > a {
+    font-size: 16px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #header {
+    height: 0px;
+  }
+  #navbar body {
+    width: 100%;
+    height: 50px;
+    margin: 0px auto;
+    margin-top: -40px;
+    display: none;
+  }
+  #navbar > li {
+    float: none;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    background: #333;
+    border-bottom: 1px solid skyblue;
+  }
+  li > a {
+    font-size: 16px;
+    line-height: 50px;
+  }
+  #res_btn {
+    display: block;
+    position: relative;
+    top: -80px;
+    cursor: pointer;
+  }
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  margin-left: 20%;
+  margin-top: 2%;
+}
 .row {
-    width: 90%;
+  width: 90%;
 }
 footer {
-    color: #fff!important;
-    text-align: center!important;
-    padding: 1.5rem!important;
-    /* margin-top: 3rem!important; */
-    background-color: #343a40!important;
-    height: 10px;
-    margin-top: 100px;
+  color: #fff !important;
+  text-align: center !important;
+  padding: 1.5rem !important;
+  /* margin-top: 3rem!important; */
+  background-color: #343a40 !important;
+  height: 10px;
+  margin-top: 100px;
 }
 .button-1:hover {
-    padding: .5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: .3rem;
-    color: #fff;
-    background-color: #ffd349;
-    border-color: #ffd349;
-    display: inline-block;
-    font-weight: 400;
-    text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: #ffd349;
+  border-color: #ffd349;
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
 }
-@media only screen and (min-width: 600px){
-.menusm {
-    display:block!important;
-}
-.menulg {
-    display:none!important;
-}
-.container {
+@media only screen and (min-width: 600px) {
+  .menusm {
+    display: block !important;
+  }
+  .menulg {
+    display: none !important;
+  }
+  .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 }
