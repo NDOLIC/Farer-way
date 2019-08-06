@@ -1,109 +1,80 @@
+/* body css for whole page */
 body {
-    background-image: url(http://www.bdsc.school.nz/wp-content/uploads/2017/03/background-blur-1.jpg);
-    background-size: cover;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
+  margin: 0px;
+  background-color: #c2c2c2;
+  background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
-      /* log in form */
-.form{
-  width:450px;
-  padding:30px;
-  margin:40px auto;
-  background: #FFF;
-  opacity: 0.8;
-  border-radius: 10px;
-  -webkit-border-radius:10px;
-  -moz-border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+
+#main {
+  width: 600px;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-top: 100px;
+  border-top: 3px double #f1f1f1;
+  border-bottom: 3px double #f1f1f1;
+  padding-top: 20px;
 }
-.form .input{
-  padding: 30px;
-  background: #F8F8F8;
-  border-radius: 6px;
-  margin-bottom: 15px;
+
+#main table {
+  font-family: "Comic Sans MS", cursive;
 }
-.form h1{
-  background: #FFF;
-  padding: 20px 30px 15px 30px;
-  margin: -30px -30px 30px -30px;
-  border-radius: 10px 10px 0 0;
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
+/* css code for textbox */
+#main .tb {
+  height: 28px;
+  width: 230px;
+  border: 1px solid blue;
   color: blue;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
-  font: normal 30px 'Bitter', serif;
-  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
-  border: 1px solid #257C9E;
-}
-.form h1 > span{
-  display: block;
-  margin-top: 2px;
-  font: 13px Arial, Helvetica, sans-serif;
-}
-.form label{
-  display: block;
-  font: 13px Arial, Helvetica, sans-serif;
-  color: #888;
-  margin-bottom: 15px;
-}
-.form input[type="text"],
-.form input[type="date"],
-.form input[type="datetime"],
-.form input[type="email"],
-.form input[type="number"],
-.form input[type="search"],
-.form input[type="time"],
-.form input[type="url"],
-.form input[type="password"],
-.form textarea,
-.form select {
-  display: block;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  width: 100%;
-  padding: 8px;
-  border-radius: 6px;
-  -webkit-border-radius:6px;
-  -moz-border-radius:6px;
-  border: 2px solid #fff;
-  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
-  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+  font-weight: bold;
+  border-left: 5px solid #f7f7f7;
+  opacity: 0.9;
 }
 
-.form .section{
-  font: normal 20px 'Bitter', serif;
-  color: #2A88AD;
-  margin-bottom: 5px;
+#main .tb:focus {
+  height: 28px;
+  border: 1px solid blue;
+  outline: none;
+  border-left: 5px solid #f7f7f7;
 }
-.form .section span {
-  background: #2A88AD;
-  padding: 5px 10px 5px 10px;
-  position: absolute;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border: 4px solid #fff;
+
+/* css code for button*/
+#main .btn {
+  width: 150px;
+  height: 32px;
+  outline: none;
+  color: #f7f7f7;
+  font-weight: bold;
+  border: 0px solid blue;
+  text-shadow: 0px 0.5px 0.5px #fff;
+  border-radius: 2px;
+  font-weight: 600;
+  color: blue;
+  letter-spacing: 1px;
   font-size: 14px;
-  margin-left: -45px;
-  color: #fff;
-  margin-top: -3px;
-}
-.form input[type="button"], 
-.form input[type="submit"]{
-  width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid blue; 
-    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: blue; letter-spacing: 1px; 
-    font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
-}
-.form input[type="button"]:hover, 
-.form input[type="submit"]:hover{
-  background-color:blue; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
-    -webkit-transition: 1s; -moz-transition: 1s; transition: 1s; 
+  background-color: #f1f1f1;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
 }
 
-/* end of login form */
+#main .btn:hover {
+  background-color: blue;
+  outline: none;
+  border-radius: 2px;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+a{
+    color: blue;
+}

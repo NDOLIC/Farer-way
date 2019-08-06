@@ -1,90 +1,201 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Way farer</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='CSS/trips.css'>
-    <script src='JS/trips.js'></script>
-</head>
-<body>
-      <!-- navigation bar -->
-      <div id="header">
-        <ul id="navbar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="trips.html">All Trips</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="registration.html">Register</a></li>
-        </ul>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="CSS/trips.css"
+    />
+    <script src="JS/trips.js"></script>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <div id="header">
+      <!-- <div id="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4ebtUGYJdUwYaGFEAzQ1_V2P2wnbkd7ZQz9eT8xH_A5MDJDNjg" height="80px" width="300px"></div> -->
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Logout</a></li>
+      </ul>
+    </div>
+    <label class="four">
+      <span>Filter by:</span>&nbsp;
+      <select>
+        <option value="book time of your trip">Origin</option>
+        <option value="book your seat">Destination</option>
+      </select>
+    </label>
+    <h1 id="tit">All Trips</h1>
+    <div class="responsive">
+      <div class="detail">
+        <img
+          src="https://images.pexels.com/photos/594384/van-vw-travel-trip-594384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt="car"
+          width="600"
+          height="400"
+        />
+        <div class="det" style="background-color: aliceblue">
+          <p>Company-name: Ritco</p>
+          <p>
+            Time availabe:
+            <select>
+              <option value="1">10:00</option>
+              <option value="2">11:00</option>
+              <option value="3">13:00</option>
+            </select>
+          </p>
+          <p>
+            Seats availabe:
+            <select>
+              <option value="1">4</option>
+              <option value="2">5</option>
+              <option value="3">6</option>
+            </select>
+          </p>
+          <p>Origin: Rubavu</p>
+          <p>Destination: Kigali</p>
+          <p>Price: 3300RWF</p>
+          <p>Tel no: +25078822888</p>
+          <p>Date: 17/07/2019</p>
+          <input
+            type="button"
+            class="btn"
+            onclick="location.href='view-trips-user.html'"
+            value="View Details"
+            style="height: 140%;width: 60%; background: #333; color: white; font-size: 20px;"
+          />
+        </div>
       </div>
-      <label class="four">
-          <span>Filter by:</span>&nbsp;
-          <select>
-            <option value="book time of your trip">Origin</option>
-            <option value="book your seat">Destination</option>
-          </select>
-      </label>
-<h1 id="tit">All Trips</h1>
-<div class="responsive">
-  <div class="detail">
-      <img src="https://images.pexels.com/photos/594384/van-vw-travel-trip-594384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="car" width="600" height="400">
-    <div class="det">
-      <p>Company-name:</p>
-      <p>Time availabe:</p>
-      <p>Seats availabe:</p>
-      <p>Origin:</p>
-      <p>Destination:</p>
-      <p>Tel no:</p>
-      <input type="button" onclick="location.href='booking.html'" value="Book Now">
     </div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="detail">
-      <img src="https://images.pexels.com/photos/2533088/pexels-photo-2533088.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="car" width="600" height="400">
-    <div class="det">
-      <p>Company-name:</p>
-      <p>Time availabe:</p>
-      <p>Seats availabe:</p>
-      <p>Origin:</p>
-      <p>Destination:</p>
-      <p>Tel no:</p>
-       <input type="button" onclick="location.href='booking.html'" value="Book Now">
+    <div class="responsive">
+      <div class="detail">
+        <img
+          src="https://images.pexels.com/photos/2533088/pexels-photo-2533088.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt="car"
+          width="600"
+          height="400"
+        />
+        <div class="det" style="background-color: aliceblue">
+          <p>Company-name: Holizon</p>
+          <p>
+            Time availabe:
+            <select>
+              <option value="1">13:00</option>
+              <option value="2">14:00</option>
+              <option value="3">15:00</option>
+            </select>
+          </p>
+          <p>
+            Seats availabe:
+            <select>
+              <option value="1">13</option>
+              <option value="2">14</option>
+              <option value="3">15</option>
+            </select>
+          </p>
+          <p>Origin: Huye</p>
+          <p>Destination: Rusizi</p>
+          <p>Price: 3000RWF</p>
+          <p>Tel no: +25078888000</p>
+          <p>Date: 17/07/2019</p>
+          <input
+            type="button"
+            class="btn"
+            onclick="location.href='view-trips-user.html'"
+            value="View Details"
+            style="height: 140%;width: 60%; background: #333; color: white; font-size: 20px;"
+          />
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="responsive">
-  <div class="detail">
-      <img src="https://images.pexels.com/photos/2558872/pexels-photo-2558872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="car" width="600" height="400">
-    <div class="det">
-      <p>Company-name:</p>
-      <p>Time availabe:</p>
-      <p>Seats availabe:</p>
-      <p>Origin:</p>
-      <p>Destination:</p>
-      <p>Tel no:</p>
-      <input type="button" onclick="location.href='booking.html'" value="Book Now">
-  </div>
-</div>
-</div>
-
-<div class="responsive">
-  <div class="detail">
-      <img src="https://images.pexels.com/photos/54278/pexels-photo-54278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="car" width="600" height="400">
-    <div class="det">
-      <p>Company-name:</p>
-      <p>Time availabe:</p>
-      <p>Seats availabe:</p>
-      <p>Origin:</p>
-      <p>Destination:</p>
-      <p>Tel no:</p>
-      <input type="button" onclick="location.href='booking.html'" value="Book Now">
+    <div class="responsive">
+      <div class="detail">
+        <img
+          src="https://images.pexels.com/photos/2558872/pexels-photo-2558872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          alt="car"
+          width="600"
+          height="400"
+        />
+        <div class="det" style="background-color: aliceblue">
+          <p>Company-name: Jaguar</p>
+          <p>
+            Time availabe:
+            <select>
+              <option value="1">17:00</option>
+              <option value="2">15:00</option>
+              <option value="3">12:00</option>
+            </select>
+          </p>
+          <p>
+            Seats availabe:
+            <select>
+              <option value="1">27</option>
+              <option value="2">21</option>
+              <option value="3">10</option>
+            </select>
+          </p>
+          <p>Origin: Kampala</p>
+          <p>Destination: Nairobi</p>
+          <p>Price: 10000RWF</p>
+          <p>Tel no: +2550088888</p>
+          <p>Date: 17/07/2019</p>
+          <input
+            type="button"
+            class="btn"
+            onclick="location.href='view-trips-user.html'"
+            value="View Details"
+            style="height: 140%;width: 60%; background: #333; color: white; font-size: 20px;"
+          />
+        </div>
+      </div>
     </div>
-  </div>
-</div> 
-</body>
+
+    <div class="responsive">
+      <a
+        ><div class="detail">
+          <img
+            src="https://images.pexels.com/photos/54278/pexels-photo-54278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt="car"
+            width="600"
+            height="400"
+          />
+          <div class="det" style="background-color: aliceblue">
+            <p>Company-name: Volcano</p>
+            <p>
+              Time availabe:
+              <select>
+                <option value="1">6:00</option>
+                <option value="2">7:00</option>
+                <option value="3">8:00</option>
+              </select>
+            </p>
+            <p>
+              Seats availabe:
+              <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </p>
+            <p>Origin: Kigali</p>
+            <p>Destination: Kampala</p>
+            <p>Price: 1000RWF</p>
+            <p>Tel no: +25078888888</p>
+            <p>Date: 17/07/2019</p>
+            <input
+              type="button"
+              class="btn"
+              onclick="location.href='view-trips-user.html'"
+              value="View Details"
+              style="height: 140%;width: 60%; background: #333; color: white; font-size: 20px;"
+            />
+          </div></div
+      ></a>
+    </div>
+  </body>
 </html>
