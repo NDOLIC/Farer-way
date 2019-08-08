@@ -9,18 +9,57 @@
     <script src='JS/view.js'></script>
 </head>
 <body>
-    <div class="responsive">
-    <div class="journey">
-        <p>First-name:</p>
-        <p>Second-name:</p>
-        <p>Seat number:</p>
-        <p>Origin:</p>
-        <p>Destination:</p>
-        <p>Company name:</p>
-        <p>Date:</p>
-        <p>Price</p>
-        <input class="button" onclick="location.href='home.html'" value="Delete">
-    </div>
-    </div> 
+        <div id="header">
+                <!-- <div id="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW4ebtUGYJdUwYaGFEAzQ1_V2P2wnbkd7ZQz9eT8xH_A5MDJDNjg" height="80px" width="300px"></div> -->
+                <ul id="navbar">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="login.html">Logout</a></li>
+                </ul>
+              </div>
+        <h2>
+                <center>Book Now!</center>
+            </h2>
+        <div class="responsive">
+                <div class="detail">
+                  <img
+                    src="https://images.pexels.com/photos/594384/van-vw-travel-trip-594384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="car"
+                    width="600"
+                    height="400"
+                    class="TextWrap"
+                  />
+                  <div class="det" style="background-color: aliceblue">
+                    <p>Company-name: Ritco</p>
+                    <p>
+                      Time availabe:
+                      <select>
+                        <option value="1">10:00</option>
+                        <option value="2">11:00</option>
+                        <option value="3">13:00</option>
+                      </select>
+                    </p>
+                    <p>
+                      Seats availabe:
+                      <select>
+                        <option value="1">4</option>
+                        <option value="2">5</option>
+                        <option value="3">6</option>
+                      </select>
+                    </p>
+                    <p>Origin: Rubavu</p>
+                    <p>Destination: Kigali</p>
+                    <p>Price: 3300RWF</p>
+                    <p>Tel no: +25078822888</p>
+                    <p>Date: 17/07/2019</p>
+                    <input
+                      type="button"
+                      class="btn"
+                      onclick="location.href='user.html'"
+                      value="Book Now"
+                      style="height: 140%;width: 15%; background: #333; color: white; font-size: 20px; float: unset;"
+                    />
+                  </div>
+                </div>
+              </div>
 </body>
 </html>
