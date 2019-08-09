@@ -8,8 +8,8 @@ var app = (0, _express["default"])();
 app.use(_express["default"].json());
 app.get('/', function (req, res) {
   return res.status(200).send({
-    'message': 'YAY! Congratulations! Your first endpoint is working'
+    'message': 'Congratulations! You did well'
   });
 });
-app.listen(3000);
-console.log('app running on port ', 3000);
+app.listen(9000);
+console.log('app running on port ', 9000);
