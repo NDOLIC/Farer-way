@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Way Farer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/booking.css'>
+    <script src='JS/booking.js'></script>
+</head>
+<body>
+    <h2>
+        <center>Book Now!</center>
+    </h2>    
+<div id="first">
+  <form action="" method="post">
+  <center>
+  <h1>Book your Trip</h1>
+  </center>
+  <label class="one">
+  <span>Name :</span>&nbsp;
+  <input class="name" name="dname" type="text">
+  </label>
+  <label class="ne">
+  <span>Origin :</span>&nbsp;
+  <input class="name" name="dorigin" type="text" style="width: 245px;">
+  </label>
+  <label class="on">
+  <span style="margin-left:-100px;">Destination :</span>&nbsp;<br>
+  <input class="name" name="ddestination" type="text" style="width: 200px; ">
+  </label>
+  <label class="two">
+  <span>Email :</span>&nbsp;
+  <input class="email" name="demail" type="email" style="width: 245px;">
+  </label>
+  <label class="three">
+  <span>Message :</span>&nbsp;
+  <textarea class="msg" name="msg" style="width: 245px;">
+  </textarea>
+  </label>
+  <label class="four">
+  <span>Select a seat</span>&nbsp;
+  <select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+
+  </select>
+  </label>
+
+  <label class="four">
+      <span>Select time</span>&nbsp;
+      <select>
+      <option value="1">6:00</option>
+      <option value="2">7:00</option>
+      <option value="3">8:00</option>
+    
+      </select>
+      </label>
+    
+  <input class="button" onclick="location.href='view-trips-user.html'" value="Book now">
+  <input class="button" onclick="location.href='view-trips-user.html'" value="View Your Trips">
+  </form>
+</div>
+<!-- end of the form -->
+</body>
+</html>
